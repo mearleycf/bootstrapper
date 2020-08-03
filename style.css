@@ -9,3 +9,39 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+h1 {
+  font-size: 3rem;
+  color: #e2dbdb;
+}
+
+hr {
+  border-color: #f05f44;
+  border-width: .2rem;
+  max-width: 10vw;
+}
+
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: #f05f44;
+  border-color: #f05f44;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: .25rem;
+}
+
+.buffer {
+  height: 10rem;
+}
